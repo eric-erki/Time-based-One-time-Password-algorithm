@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Two factor authentication</title>
+        <script type="text/javascript" src="javascripts/jquery-3.3.1.min.js"></script>
+    </head>
+
+    <body>
+        <h1>Register</h1>
+        <form method="post" id="registerUser" action="registerUser">
+
+            Username&nbsp;<input type="text" id="txtUserName" name="txtUserName"/><br/>
+            Password&nbsp;<input type="password" id="txtPassword" name="txtPassword"/><br/>
+            <input type="button" id="btnRegister" value="Register"/>
+
+        </form>
+
+        <script>
+			$("#btnRegister").click(function(){
+				
+				username = $("#txtUserName").val();
+				password = $("#txtPassword").val();
+
+				if(username == ""){
+					alert("Enter username.");
+					return;
+				}
+
+				if(password == ""){
+					alert("Enter password");
+					return;
+				}
+
+				$("#registerUser").submit();				
+			});         
+        </script>
+    </body>
+</html>

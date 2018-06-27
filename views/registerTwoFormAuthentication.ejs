@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Setup the authenticator.</title>
+        <script type="text/javascript" src="javascripts/jquery-3.3.1.min.js"></script>
+    </head>
+    <body>
+
+        <h1>Setup the authenticator.</h1>
+        <ul>
+            <li>Install the authenticator app. Some of the apps.</li>
+            <li>Open the app.</li>
+            <li>Add a new account.</li>
+            <li>Choose scan barcode.</li>
+            <li><img src="<%= imageUrl %>"/></li>
+            <li>Can't scan?</li>
+            <li>After the scan enter the 6 digit code below.</li>
+        </ul>
+        <br/><br/>
+        <form method="post" id="validateCode" action="validateCode">
+
+            <input type="text" id="txtCode" name="txtCode" id="txtCode"/>
+            <input type="button" id="btnVerify" value="Verify"/>
+        </form>
+
+        <script>
+            $("#btnVerify").click(function(){
+
+                code = $("#txtCode").val();
+
+                if(code == ""){
+
+                    alert("Enter 6 digit code.");
+                    return;
+                }
+
+                if(code.length != 6){
+                    alert("Invalid code");
+                    return;
+                }
+
+                $("#validateCode").submit();	
+            });
+        </script>
+    </body>
+</html>

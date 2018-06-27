@@ -1,0 +1,40 @@
+<html>
+    <head>
+		<title>Login</title>
+		<script type="text/javascript" src="javascripts/jquery-3.3.1.min.js"></script>
+    </head>
+    <body>
+        <h1>Login</h1>
+		<form method="post" id="authenticateUser" action="authenticateUser">
+
+			Username&nbsp;<input type="text" id="txtUserName1" name="txtUserName"/><br/>
+			Password&nbsp;<input type="password" id="txtPassword1" name="txtPassword"/><br/>
+			<input type="button" id="btnLogin" value="Login"/>
+
+        </form>
+        <% if (status == 0) { %>
+			<script>alert('Invalid username or login');</script>
+        <% } %>
+        
+        <script>
+            
+			$("#btnLogin").click(function(){
+				
+				username = $("#txtUserName1").val();
+				password = $("#txtPassword1").val();
+
+				if(username == ""){
+					alert("Enter username.");
+					return;
+				}
+
+				if(password == ""){
+					alert("Enter password");
+					return;
+				}
+
+				$("#authenticateUser").submit();				
+			});         
+        </script>
+    </body>
+</html>
