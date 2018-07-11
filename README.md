@@ -1,7 +1,7 @@
 # Time-based-One-time-Password-algorithm
 The Time-based One-Time Password algorithm (TOTP) is an algorithm that computes a one-time password a shared secret key and the current time. It has been adopted as Internet Engineering Task Force standard RFC 6238 is the cornerstone of Initiative For Open Authentication (OATH), and is used in a number of two-factor authentication systems. -From Wikipedia, the free encyclopedia 
 
-This is a small demo on how you can add an extra security for your users to protect them from Phishing attacks.
+This is a small demo on how you can add an extra security for your users to protect them from Phishing attacks. [Demo](https://google-authenticator-.herokuapp.com/)
 
 To run on windows run the run.cmd batch.
 To run on mac or linux run ./run.sh
