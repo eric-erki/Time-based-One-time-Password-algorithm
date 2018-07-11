@@ -6,17 +6,17 @@ This is a small demo on how you can add an extra security for your users to prot
 To run on windows run the run.cmd batch.
 To run on mac or linux run ./run.sh
 
-Screenshots<br/>
-Registration screen<br/>
+<h3>Screenshots</h3><br/>
+<b>Registration screen</b><br/>
 <img src="https://github.com/searock/searock.github.io/raw/master/images/readme/1.png"/>
 
-Code registration screen<br/>
+<b>Code registration screen</b><br/>
 <img src="https://github.com/searock/searock.github.io/raw/master/images/readme/2.png"/>
 
-Login screen<br/>
+<b>Login screen</b><br/>
 <img src="https://github.com/searock/searock.github.io/raw/master/images/readme/3.png"/>
 
-Code verification screen<br/>
+<b>Code verification screen</b><br/>
 <img src="https://github.com/searock/searock.github.io/raw/master/images/readme/4.png"/>
 
 You need to install Google authenticator or Microsoft authenticator or Authy to test Time-based One-time Password algorithm.
