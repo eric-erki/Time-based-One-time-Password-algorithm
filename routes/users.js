@@ -37,7 +37,7 @@ router.get('/registerTwoFormAuthentication', function(req, res, next) {
 	QRCode.toDataURL(secret.otpauth_url, function(err, data_url) {
 	//console.log(data_url);
 
-		res.render('registerTwoFormAuthentication', {imageUrl: data_url });
+		res.render('registerTwoFormAuthentication', {imageUrl: data_url, key:  secret.ascii});
 	});
 });
 
@@ -79,7 +79,7 @@ router.post('/authenticateUser', function(req, res, next){
 	if((username == formUsername) && (password == formPassword)){
 		res.redirect('loginWithCode');
 	}else{
-		res.render('index', {status: 0 });
+		res.render('login', {status: 0 });
 	}
 });
 

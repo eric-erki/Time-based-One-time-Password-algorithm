@@ -12,8 +12,9 @@
             <li>Add a new account.</li>
             <li>Choose scan barcode.</li>
             <li><img src="<%= imageUrl %>"/></li>
-            <li>Can't scan?</li>
+            <li id="liCannotScan">Can't scan?</li>
             <li>After the scan enter the 6 digit code below.</li>
+            <input type="hidden" id="key" value="<%= key %>"/>
         </ul>
         <br/><br/>
         <form method="post" id="validateCode" action="validateCode">
