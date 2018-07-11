@@ -19,5 +19,24 @@ You need to install Google authenticator or Microsoft authenticator or Authy to 
 
 Google Authenticator
 <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2">
-	<img src="images/google_play.svg" height="40" width="120">
+	<img src="https://raw.githubusercontent.com/searock/Time-based-One-time-Password-algorithm/master/public/images/google_play.svg" height="40" width="120">
 </a>
+<a href="https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8">
+			<img height="40" width="120" src="https://raw.githubusercontent.com/searock/Time-based-One-time-Password-algorithm/master/public/images/app_store.svg">
+		</a>
+
+Microsoft Authenticator
+<a href="https://play.google.com/store/apps/details?id=com.azure.authenticator">
+			<img src="https://raw.githubusercontent.com/searock/Time-based-One-time-Password-algorithm/master/public/images/google_play.svg" height="40" width="120">
+		</a>
+<a href="https://itunes.apple.com/us/app/microsoft-authenticator/id983156458?mt=8">
+			<img height="40" width="120" src="https://raw.githubusercontent.com/searock/Time-based-One-time-Password-algorithm/master/public/images/app_store.svg">
+		</a>
+
+Authy
+<a href="https://play.google.com/store/apps/details?id=com.authy.authy">
+			<img src="https://raw.githubusercontent.com/searock/Time-based-One-time-Password-algorithm/master/public/images/google_play.svg" height="40" width="120">
+		</a>
+<a href="https://itunes.apple.com/us/app/authy/id494168017?mt=8">
+			<img height="40" width="120" src="https://raw.githubusercontent.com/searock/Time-based-One-time-Password-algorithm/master/public/images/app_store.svg">
+		</a>                
