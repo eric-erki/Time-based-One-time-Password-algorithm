@@ -7,17 +7,21 @@ To run on windows run the run.cmd batch.
 To run on mac or linux run ./run.sh
 
 Screenshots
+Registration screen
 ![Registration Screen](https://github.com/searock/searock.github.io/raw/master/images/readme/1.png)
 
+Code registration screen
 ![Code registration](https://github.com/searock/searock.github.io/raw/master/images/readme/2.png)
 
-![Login Screen](https://github.com/searock/searock.github.io/raw/master/images/readme/3.png)
+Login screen
+![Login screen](https://github.com/searock/searock.github.io/raw/master/images/readme/3.png)
 
+Code verification screen
 ![Code verification](https://github.com/searock/searock.github.io/raw/master/images/readme/4.png)
 
 You need to install Google authenticator or Microsoft authenticator or Authy to test Time-based One-time Password algorithm.
 
-Google Authenticator
+Google Authenticator<br/>
 <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2">
 	<img src="https://raw.githubusercontent.com/searock/Time-based-One-time-Password-algorithm/master/public/images/google_play.svg?sanitize=true" height="40" width="120">
 </a>
@@ -25,7 +29,7 @@ Google Authenticator
 			<img height="40" width="120" src="https://raw.githubusercontent.com/searock/Time-based-One-time-Password-algorithm/master/public/images/app_store.svg?sanitize=true">
 		</a>
 
-Microsoft Authenticator
+Microsoft Authenticator<br/>
 <a href="https://play.google.com/store/apps/details?id=com.azure.authenticator">
 			<img src="https://raw.githubusercontent.com/searock/Time-based-One-time-Password-algorithm/master/public/images/google_play.svg?sanitize=true" height="40" width="120">
 		</a>
@@ -33,7 +37,7 @@ Microsoft Authenticator
 			<img height="40" width="120" src="https://raw.githubusercontent.com/searock/Time-based-One-time-Password-algorithm/master/public/images/app_store.svg?sanitize=true">
 		</a>
 
-Authy
+Authy<br/>
 <a href="https://play.google.com/store/apps/details?id=com.authy.authy">
 			<img src="https://raw.githubusercontent.com/searock/Time-based-One-time-Password-algorithm/master/public/images/google_play.svg?sanitize=true" height="40" width="120">
 		</a>
